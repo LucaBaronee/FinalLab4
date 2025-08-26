@@ -1,0 +1,48 @@
+﻿@model Stock1.Models.Producto
+
+@{
+    ViewData["Title"] = "Detalles del Producto";
+}
+
+<div class="container my-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h3 class="mb-0">Detalles del Producto</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.nombre)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nombre)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.codigo)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.codigo)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.descripcion)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.descripcion)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.imagen)</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.imagen))
+                    {
+                        <img src="~/fotos/@Model.imagen" class="img-thumbnail" style="max-width:150px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">No Image</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.categoria)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.categoria.descripcion)</dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">
+                <i class="bi bi-pencil-square"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver a la lista
+            </a>
+        </div>
+    </div>
+</div>

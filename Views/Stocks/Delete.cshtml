@@ -1,0 +1,40 @@
+﻿@model Stock1.Models.Stock
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<div class="container my-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">¿Estás seguro que deseas eliminar este registro?</h3>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Detalles del Stock</h5>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.cantidad)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.cantidad)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.fecha)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.fecha)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.producto)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.producto.nombre)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">Proveedor</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.comprador.dni)</dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-trash"></i> Eliminar
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver a la lista
+            </a>
+        </div>
+    </div>
+</div>

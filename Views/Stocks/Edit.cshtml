@@ -1,0 +1,64 @@
+﻿@model Stock1.Models.Stock
+
+@{
+    ViewData["Title"] = "Editar Stock";
+}
+
+<div class="container my-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-warning text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Editar Stock</h3>
+            <a asp-action="Index" class="btn btn-outline-light btn-sm">
+                <i class="bi bi-arrow-left"></i> Volver a la lista
+            </a>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="cantidad" class="form-label fw-bold">Cantidad</label>
+                    <input asp-for="cantidad" class="form-control" placeholder="Ingrese la cantidad" />
+                    <span asp-validation-for="cantidad" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="fecha" class="form-label fw-bold">Fecha</label>
+                    <input asp-for="fecha" type="date" class="form-control" />
+                    <span asp-validation-for="fecha" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="productoId" class="form-label fw-bold">Producto</label>
+                    <select asp-for="productoId" class="form-select" asp-items="ViewBag.productoId">
+                        <option value="">Seleccione el producto</option>
+                    </select>
+                    <span asp-validation-for="productoId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="compradorId" class="form-label fw-bold">Proveedor</label>
+                    <select asp-for="compradorId" class="form-select" asp-items="ViewBag.compradorId">
+                        <option value="">Seleccione el proveedor</option>
+                    </select>
+                    <span asp-validation-for="compradorId" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="bi bi-save"></i> Guardar Cambios
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

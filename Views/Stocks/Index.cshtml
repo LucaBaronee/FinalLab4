@@ -1,0 +1,73 @@
+﻿@* @model IEnumerable<Stock1.Models.Stock> *@
+   @model Stock1.View_Model.StockVM
+@{
+    ViewData["Title"] = "Stock";
+}
+
+<div class="container my-5">
+    <h1 class="text-center display-5 mb-4">@ViewData["Title"]</h1>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <a asp-action="Create" class="btn btn-primary btn-lg me-2">
+                <i class="bi bi-plus-circle"></i> Nueva Compra
+            </a>
+            <a asp-action="Venta" class="btn btn-warning btn-lg">
+                <i class="bi bi-cart-dash"></i> Nueva Venta
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Detalles del Inventario</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped align-middle mb-0">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Fecha</th>
+                        <th>Producto</th>
+                        <th>Proveedor</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.stocks)
+                    {
+                        <tr>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.cantidad)</td>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.fecha)</td>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.producto.descripcion)</td>
+                            <td class="text-center">
+
+                                @if (item.compradorId == null)
+                                {
+                                    <span>Venta a general</span>
+                                }
+                                else
+                                {
+                                    @Html.DisplayFor(modelItem => item.comprador.dni)
+                                }
+                            </td>
+                            @* <td class="text-center">@Html.DisplayFor(modelItem => item.comprador.dni)</td> *@
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning btn-sm mx-1">
+                                    <i class="bi bi-pencil-square"></i> Editar
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm mx-1">
+                                    <i class="bi bi-info-circle"></i> Detalles
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm mx-1">
+                                    <i class="bi bi-trash"></i> Eliminar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <partial name="_Paginador" for="@Model.paginador" />
+</div>

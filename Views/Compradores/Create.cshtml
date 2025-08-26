@@ -1,0 +1,61 @@
+﻿
+
+ @model Stock1.Models.Comprador
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center mb-4">Crear Comprador</h1>
+
+<div class="container">
+    <h4 class="text-center mb-4">Detalles del Comprador</h4>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="nombre" class="form-label">Nombre</label>
+                    <input asp-for="nombre" class="form-control" placeholder="Ingrese su nombre" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="apellido" class="form-label">Apellido</label>
+                    <input asp-for="apellido" class="form-control" placeholder="Ingrese su apellido" />
+                    <span asp-validation-for="apellido" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="dni" class="form-label">DNI</label>
+                    <input asp-for="dni" class="form-control" placeholder="Ingrese su DNI" />
+                    <span asp-validation-for="dni" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="foto" class="form-label fw-bold">Imagen del Comprador</label>
+                    <div class="d-flex flex-column align-items-center">
+                        <img id="imagen" src="" class="img-thumbnail mb-3" style="max-width: 150px; display: none;" />
+                        <input type="file" id="foto" name="foto" accept="image/jpeg" class="form-control" />
+                    </div>
+                    <span asp-validation-for="foto" class="text-danger"></span>
+                </div>
+
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Crear Proveedor</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

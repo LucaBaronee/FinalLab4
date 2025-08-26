@@ -1,0 +1,99 @@
+﻿@model Stock1.View_Model.CompradorVM
+@{
+    ViewData["Title"] = "Proveedor";
+}
+
+<div class="container my-5">
+    <h1 class="text-center display-5 mb-4">@ViewData["Title"]</h1>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <a asp-action="Create" class="btn btn-primary btn-lg me-2">
+                <i class="bi bi-plus-circle"></i> Nuevo Proveedor
+            </a>
+        </div>
+    </div>
+    <form method="get" asp-action="Index" class="mt-2 mb-4 row gx-3 gy-2 align-items-center">
+        <div class="col-auto">
+            <label for="busqNombre" class="visually-hidden">Nombre</label>
+            <input type="text" id="busqNombre" placeholder="Ingresar nombre" name="busqNombre" value="@Model.busquedaNombre" class="form-control" />
+        </div>
+        <div class="col-auto">
+            <label for="busqApellido" class="visually-hidden">Apellido</label>
+            <input type="text" id="busqApellido" placeholder="Ingresar apellido" name="busqApellido" value="@Model.busquedaApellido" class="form-control" />
+        </div>
+
+        <div class="col-auto">
+            <input type="submit" value="Buscar" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-danger">Limpiar</a>
+        </div>
+    </form>
+    <div class="card shadow-sm">
+        
+        
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Detalles de los Proveedores</h5>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover table-striped align-middle mb-0">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>DNI</th>
+                        <th>Foto</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.compradores != null && Model.compradores.Any())
+                    {
+                        @foreach (var item in Model.compradores)
+                        {
+                            <tr>
+                                <td class="text-center">@Html.DisplayFor(modelItem => item.nombre)</td>
+                                <td class="text-center">@Html.DisplayFor(modelItem => item.apellido)</td>
+                                <td class="text-center">@Html.DisplayFor(modelItem => item.dni)</td>
+                                <td class="text-center">
+                                    @if (!string.IsNullOrEmpty(item.foto))
+                                    {
+                                        <img src="~/fotos/@item.foto" class="img-thumbnail" style="max-width:50px;" />
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">No Image</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning btn-sm mx-1">
+                                            <i class="bi bi-pencil-square"></i> Editar
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm mx-1">
+                                            <i class="bi bi-info-circle"></i> Detalles
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm mx-1">
+                                            <i class="bi bi-trash"></i> Eliminar
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">No hay proveedores disponibles.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+<div class="d-flex justify-content-center mt-4">
+    <partial name="_Paginador" for="@Model.paginador" />
+</div>

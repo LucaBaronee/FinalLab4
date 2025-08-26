@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Stock1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Stock1.lvqrlvfy1b.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\00c2655146b64711abac981cdcd5cb61.jpg",
+      "PackagePath": "staticwebassets\\fotos\\00c2655146b64711abac981cdcd5cb61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\189919fa731f4c96b9e3a45c0773a37b.jpg",
+      "PackagePath": "staticwebassets\\fotos\\189919fa731f4c96b9e3a45c0773a37b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\208cf76115164317bbbc6c5cabaaec32.jpg",
+      "PackagePath": "staticwebassets\\fotos\\208cf76115164317bbbc6c5cabaaec32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\20c4f5fd63144877b5110bd3ec0c6412.jpg",
+      "PackagePath": "staticwebassets\\fotos\\20c4f5fd63144877b5110bd3ec0c6412.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\270dc6332458480c8df3ede29818f2cb.jpg",
+      "PackagePath": "staticwebassets\\fotos\\270dc6332458480c8df3ede29818f2cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\3163fcaaab9c43f2ad988c5d9fe4676c.jpg",
+      "PackagePath": "staticwebassets\\fotos\\3163fcaaab9c43f2ad988c5d9fe4676c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\382dd1b975e34e45ba882ee48f05e523.jpg",
+      "PackagePath": "staticwebassets\\fotos\\382dd1b975e34e45ba882ee48f05e523.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\3bbce215912242ab9e588140a41335e3.jpg",
+      "PackagePath": "staticwebassets\\fotos\\3bbce215912242ab9e588140a41335e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\41472787ca7f4c77b0269e4ad1777821.jpg",
+      "PackagePath": "staticwebassets\\fotos\\41472787ca7f4c77b0269e4ad1777821.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\4dc1d7e52ee045e3bd42b9b2bd374482.jpg",
+      "PackagePath": "staticwebassets\\fotos\\4dc1d7e52ee045e3bd42b9b2bd374482.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\4f81a923b3054551bbf0b9d1ca509612.jpg",
+      "PackagePath": "staticwebassets\\fotos\\4f81a923b3054551bbf0b9d1ca509612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\5dd847d929014eecb5f08e0fd2eb6fea.jpg",
+      "PackagePath": "staticwebassets\\fotos\\5dd847d929014eecb5f08e0fd2eb6fea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\5f4e317573c04c19b7194ac10f1dcae4.jpg",
+      "PackagePath": "staticwebassets\\fotos\\5f4e317573c04c19b7194ac10f1dcae4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\6352e5bae7bb4b66ad8449d18edb5116.jpg",
+      "PackagePath": "staticwebassets\\fotos\\6352e5bae7bb4b66ad8449d18edb5116.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\642cb7e96c1b44f7853e9eaf2c6ba915.jpg",
+      "PackagePath": "staticwebassets\\fotos\\642cb7e96c1b44f7853e9eaf2c6ba915.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\6d3768730a0f4487bd011cc86344bf2e.jpg",
+      "PackagePath": "staticwebassets\\fotos\\6d3768730a0f4487bd011cc86344bf2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\6e2046a291f946eb87fc0dcd4f6cd923.jpg",
+      "PackagePath": "staticwebassets\\fotos\\6e2046a291f946eb87fc0dcd4f6cd923.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\6ff2d9717deb43479a5e630789789a1b.jpg",
+      "PackagePath": "staticwebassets\\fotos\\6ff2d9717deb43479a5e630789789a1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\72e7e6d5365341339890b134fe4e7bde.jpg",
+      "PackagePath": "staticwebassets\\fotos\\72e7e6d5365341339890b134fe4e7bde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\7acd6db71e5344e484a85f0aba0a2343.jpg",
+      "PackagePath": "staticwebassets\\fotos\\7acd6db71e5344e484a85f0aba0a2343.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\7def680e1e244e70bc6b928b8ad82597.jpg",
+      "PackagePath": "staticwebassets\\fotos\\7def680e1e244e70bc6b928b8ad82597.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\83954b7a48fc4a178197f4649544be4a.jpg",
+      "PackagePath": "staticwebassets\\fotos\\83954b7a48fc4a178197f4649544be4a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\846a875598ca4e9497021bbf3e57a743.jpg",
+      "PackagePath": "staticwebassets\\fotos\\846a875598ca4e9497021bbf3e57a743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\898419f22b7f492295d37216e359f266.jpg",
+      "PackagePath": "staticwebassets\\fotos\\898419f22b7f492295d37216e359f266.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\9b6c60b6faa34bf59bf108ed0a8ecd1c.jpg",
+      "PackagePath": "staticwebassets\\fotos\\9b6c60b6faa34bf59bf108ed0a8ecd1c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\add93cba79b9417f898c102f477adf91.jpg",
+      "PackagePath": "staticwebassets\\fotos\\add93cba79b9417f898c102f477adf91.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\ae9392a2a56e4efdb902b29c16f5e5ca.jpg",
+      "PackagePath": "staticwebassets\\fotos\\ae9392a2a56e4efdb902b29c16f5e5ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\bcfe1ba81c2e4ff394130d243cdd9901.jpg",
+      "PackagePath": "staticwebassets\\fotos\\bcfe1ba81c2e4ff394130d243cdd9901.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\c2d0dc8ca72c4746a56d67f00750b9a7.jpg",
+      "PackagePath": "staticwebassets\\fotos\\c2d0dc8ca72c4746a56d67f00750b9a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\c3c5071de08d4624ad25f5f733ea6780.jpg",
+      "PackagePath": "staticwebassets\\fotos\\c3c5071de08d4624ad25f5f733ea6780.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\cf11904d8ea34825afc74c0c31eef9e4.jpg",
+      "PackagePath": "staticwebassets\\fotos\\cf11904d8ea34825afc74c0c31eef9e4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\df26587ef06e471bbd9de6fb0c6a4ab4.jpg",
+      "PackagePath": "staticwebassets\\fotos\\df26587ef06e471bbd9de6fb0c6a4ab4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\f7742a3b3b7a45d28ba1f424dd2ce20f.jpg",
+      "PackagePath": "staticwebassets\\fotos\\f7742a3b3b7a45d28ba1f424dd2ce20f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\fotos\\ff1b1308d9944183b9b45f9ab3660d59.jpg",
+      "PackagePath": "staticwebassets\\fotos\\ff1b1308d9944183b9b45f9ab3660d59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\0f4f717f36d14053a5d4cc4a8ca3ba6c.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\0f4f717f36d14053a5d4cc4a8ca3ba6c.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\15ae6523c15b4210a6945f7689bb1fb1.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\15ae6523c15b4210a6945f7689bb1fb1.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\21280d45f817466bb61bb2cf13492d53.xlsx",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\21280d45f817466bb61bb2cf13492d53.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\260f8464a6044857b05848472dfaf4b2.xlsx",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\260f8464a6044857b05848472dfaf4b2.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\521c0dfb40c34dcebdbf5867e2b67441.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\521c0dfb40c34dcebdbf5867e2b67441.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\539c6297532944df9d44f11356a12886.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\539c6297532944df9d44f11356a12886.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\5536c785fb09464791250dfa88a7ad89.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\5536c785fb09464791250dfa88a7ad89.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\57448c9120b4466a892381bf1a1aec2e.xlsx",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\57448c9120b4466a892381bf1a1aec2e.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\62ada0aec6dc440a90847e24cfe983d3.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\62ada0aec6dc440a90847e24cfe983d3.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\733bb3af469f41bfb804df9acefb38c8.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\733bb3af469f41bfb804df9acefb38c8.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\9645a0585d4b45c4a7145706c1540373.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\9645a0585d4b45c4a7145706c1540373.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\9735c945bbd04c4b9d6115d796841e25.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\9735c945bbd04c4b9d6115d796841e25.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\a0490847a29347bfa2c5f2dde2d42129.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\a0490847a29347bfa2c5f2dde2d42129.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\aa7ce8e59ddd46e9a7867e9c44eceb23.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\aa7ce8e59ddd46e9a7867e9c44eceb23.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\c64b9b0dafb9491081ddad20f57f0204.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\c64b9b0dafb9491081ddad20f57f0204.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\cf7813b511f946c7907b5272c9ed39cc.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\cf7813b511f946c7907b5272c9ed39cc.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\dcfbb89f2bd84b04a9b317c6b6f0fa71.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\dcfbb89f2bd84b04a9b317c6b6f0fa71.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\efb33b486ac24690903f28227546f21f.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\efb33b486ac24690903f28227546f21f.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\importacionesCategoria\\fbef6b4c01a5422db6aa8b241b6d8f55.csv",
+      "PackagePath": "staticwebassets\\importacionesCategoria\\fbef6b4c01a5422db6aa8b241b6d8f55.csv"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucab\\source\\repos\\Stock1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Stock1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Stock1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Stock1.props",
+      "PackagePath": "build\\Stock1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Stock1.props",
+      "PackagePath": "buildMultiTargeting\\Stock1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Stock1.props",
+      "PackagePath": "buildTransitive\\Stock1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

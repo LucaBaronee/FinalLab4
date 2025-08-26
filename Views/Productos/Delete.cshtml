@@ -1,0 +1,52 @@
+﻿@model Stock1.Models.Producto
+
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+
+<div class="container my-5">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">¿Estás seguro que deseas eliminar este producto?</h3>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Detalles del Producto</h5>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.nombre)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nombre)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.codigo)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.codigo)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.descripcion)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.descripcion)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.imagen)</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.imagen))
+                    {
+                        <img src="~/fotos/@Model.imagen" class="img-thumbnail" style="max-width:150px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">No Image</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.categoria)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.categoria.descripcion)</dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-trash"></i> Eliminar
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver a la lista
+            </a>
+        </div>
+    </div>
+</div>

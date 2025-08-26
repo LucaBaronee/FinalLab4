@@ -1,0 +1,54 @@
+﻿@model Stock1.Models.Comprador
+
+@{
+    ViewData["Title"] = "Eliminar Comprador";
+}
+
+<div class="container my-5" >
+    <h1 class="text-center display-5 mb-4">@ViewData["Title"]</h1>
+
+    <div class="card shadow-lg" enctype="multipart/form-data">
+        <div class="card-header bg-danger text-white">
+            <h5 class="mb-0">Confirmar Eliminación</h5>
+        </div>
+        <div class="card-body">
+            <h3 class="text-center mb-4">¿Estás seguro de que deseas eliminar este comprador?</h3>
+
+            <div class="alert alert-warning">
+                <strong>Advertencia:</strong> Esta acción es irreversible.
+            </div>
+
+            <div>
+                <h4 class="text-center mb-3">Detalles del Comprador</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-3 font-weight-bold">Nombre</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.nombre)</dd>
+                    <dt class="col-sm-3 font-weight-bold">Apellido</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.apellido)</dd>
+                    <dt class="col-sm-3 font-weight-bold">DNI</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.dni)</dd>
+                    <dt class="col-sm-3 font-weight-bold">Foto</dt>
+                    <dd class="col-sm-9">
+                        @if (!string.IsNullOrEmpty(Model.foto))
+                        {
+                            <img src="~/fotos/@Model.foto" class="img-thumbnail" style="max-width:150px;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Image</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="text-center">
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger btn-lg mr-3">Eliminar</button>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Volver a la lista</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

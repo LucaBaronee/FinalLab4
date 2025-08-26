@@ -1,0 +1,68 @@
+﻿@model Stock1.Models.Comprador
+
+@{
+    ViewData["Title"] = "Detalles del Comprador";
+}
+
+<div class="container my-5">
+    <h1 class="text-center display-5 mb-4">@ViewData["Title"]</h1>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h5 class="mb-0">Detalles del Comprador</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <strong>@Html.DisplayNameFor(model => model.nombre)</strong>
+                </div>
+                <div class="col-sm-9">
+                    @Html.DisplayFor(model => model.nombre)
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <strong>@Html.DisplayNameFor(model => model.apellido)</strong>
+                </div>
+                <div class="col-sm-9">
+                    @Html.DisplayFor(model => model.apellido)
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <strong>@Html.DisplayNameFor(model => model.dni)</strong>
+                </div>
+                <div class="col-sm-9">
+                    @Html.DisplayFor(model => model.dni)
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <strong>@Html.DisplayNameFor(model => model.foto)</strong>
+                </div>
+                <div class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.foto))
+                    {
+                        <img src="~/fotos/@Model.foto" class="img-thumbnail" style="max-width:150px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">No hay imagen</span>
+                    }
+                </div>
+            </div>
+
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-sm">
+                <i class="bi bi-pencil-square"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary btn-sm">
+                <i class="bi bi-arrow-left-circle"></i> Volver a la lista
+            </a>
+        </div>
+    </div>
+</div>

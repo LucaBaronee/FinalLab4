@@ -1,0 +1,45 @@
+﻿@model Stock1.View_Model.ProductoVM
+@{
+    ViewData["Title"] = "Pagina Principal";
+}
+<div class="text-center">
+    <h1>Productos Disponibles</h1>
+    <form method="get" asp-action="Index" class="mt-2 mb-4 row gx-3 gy-2 align-items-center">
+        <div class="col-auto">
+            <label for="busqNombre" class="visually-hidden">Nombre</label>
+            <input type="text" id="busqNombre" placeholder="Ingresar nombre" name="busqNombre" value="@Model.busquedaNombre" class="form-control" />
+        </div>
+        
+        <div class="col-auto">
+            <label for="categoriaId" class="visually-hidden">Categoría</label>
+            <select id="categoriaId" asp-for="categoriaId" asp-items="@Model.listaCategorias" class="form-select">
+                <option value="">Todos</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <input type="submit" value="Buscar" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-danger">Limpiar</a>
+        </div>
+    </form>
+    <div class="container">
+        <div class="row">
+            @foreach (var producto in Model.productos)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" style="height:400px">
+                        @if (!string.IsNullOrEmpty(producto.imagen))
+                        {
+                            <img src="~/fotos/@producto.imagen" class="img-fluid mx-auto d-block mt-2" style="max-width:200px; max-height:200px;" />
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@producto.nombre</h5>
+                            <p class="card-text">@producto.descripcion</p>
+                            <p>Stock: @producto.stocks.Sum(x => x.cantidad)</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <partial name="_Paginador" for="@Model.paginador" />
+</div>

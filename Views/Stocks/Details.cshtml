@@ -1,0 +1,36 @@
+﻿@model Stock1.Models.Stock
+
+@{
+    ViewData["Title"] = "Detalles de Stock";
+}
+
+<div class="container my-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h3 class="mb-0">Detalles de Stock</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.cantidad)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.cantidad)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.fecha)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.fecha)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">@Html.DisplayNameFor(model => model.producto)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.producto.nombre)</dd>
+
+                <dt class="col-sm-3 font-weight-bold">Proveedor</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.comprador.dni)</dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">
+                <i class="bi bi-pencil-square"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver a la lista
+            </a>
+        </div>
+    </div>
+</div>

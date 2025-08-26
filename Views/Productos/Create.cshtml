@@ -1,0 +1,81 @@
+﻿
+@model Stock1.Models.Producto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-5">Crear nuevo producto</h1>
+        <a asp-action="Index" class="btn btn-outline-secondary btn-sm">
+            <i class="bi bi-arrow-left"></i> Volver al listado
+        </a>
+    </div>
+
+    <div class="card shadow-lg">
+        <div class="card-body">
+            <h4 class="card-title mb-3">Detalles de productos</h4>
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="nombre" class="form-label fw-bold">Nombre</label>
+                    <input asp-for="nombre" class="form-control" placeholder="Nombre de producto" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="codigo" class="form-label fw-bold">Código</label>
+                    <input asp-for="codigo" class="form-control" placeholder="Código del producto" />
+                    <span asp-validation-for="codigo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="descripcion" class="form-label fw-bold">Descripción</label>
+                    <textarea asp-for="descripcion" class="form-control" rows="3" placeholder="Descripción del producto"></textarea>
+                    <span asp-validation-for="descripcion" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="foto" class="form-label fw-bold">Imagen del producto</label>
+                    <div class="d-flex flex-column align-items-start">
+                        <img id="imagen" src="" class="img-thumbnail mb-2" style="max-width: 150px; display: none;" />
+                        <input type="file" id="foto" name="foto" accept="image/jpeg" class="form-control-file" />
+                    </div>
+                    <span asp-validation-for="imagen" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="categoriaId" class="form-label fw-bold">Seleccione la categoría</label>
+                    <select asp-for="categoriaId" class="form-select" asp-items="ViewBag.categoriaId">
+                        <option value="">Seleccione la categoría</option>
+                    </select>
+                    <span asp-validation-for="categoriaId" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="bi bi-save"></i> Crear producto
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('foto').addEventListener('change', function (event) {
+            const [file] = event.target.files;
+            if (file) {
+                const preview = document.getElementById('imagen');
+                preview.src = URL.createObjectURL(file);
+                preview.style.display = 'block';
+            }
+        });
+    </script>
+}

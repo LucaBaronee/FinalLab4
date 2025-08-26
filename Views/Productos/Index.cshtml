@@ -1,0 +1,92 @@
+﻿
+@model Stock1.View_Model.ProductoVM
+
+@{
+    ViewData["Title"] = "Lista de productos";
+}
+
+
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <a asp-action="Create" class="btn btn-primary btn-lg">
+            <i class="bi bi-plus-circle"></i> Crear Nuevo
+        </a>
+    </div>
+    <h1 class="display-5">@ViewData["Title"]</h1>
+    <form method="get" asp-action="Index" class="mt-2 mb-4 row gx-3 gy-2 align-items-center">
+        <div class="col-auto">
+            <label for="busqNombre" class="visually-hidden">Nombre</label>
+            <input type="text" id="busqNombre" placeholder="Ingresar nombre" name="busqNombre" value="@Model.busquedaNombre" class="form-control" />
+        </div>
+        <div class="col-auto">
+            <label for="busqCodigo" class="visually-hidden">Código</label>
+            <input type="number" id="busqCodigo" placeholder="Ingresar código" name="busqCodigo" value="@Model.busquedaCodigo" class="form-control" />
+        </div>
+        <div class="col-auto">
+            <label for="categoriaId" class="visually-hidden">Categoría</label>
+            <select id="categoriaId" asp-for="categoriaId" asp-items="@Model.listaCategorias" class="form-select">
+                <option value="">Todos</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <input type="submit" value="Buscar" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-danger">Limpiar</a>
+        </div>
+    </form>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Detalles de productos</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped align-middle mb-0">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Código</th>
+                        <th>Descripción</th>
+                        <th>Imagen</th>
+                        <th>Categoría</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.productos)
+                    {
+                        <tr>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.nombre)</td>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.codigo)</td>
+       
+                            <td>@Html.DisplayFor(modelItem => item.descripcion)</td>
+                            <td class="text-center">
+                                @if (!string.IsNullOrEmpty(item.imagen))
+                                {
+                                    <img src="~/fotos/@item.imagen" class="img-thumbnail" style="max-width:100px;" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No Image</span>
+                                }
+                            </td>
+                            <td class="text-center">@Html.DisplayFor(modelItem => item.categoria.descripcion)</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning me-1">
+                                    <i class="bi bi-pencil-square"></i> Editar
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info me-1">
+                                    <i class="bi bi-eye"></i> Detalles
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i> Borrar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <partial name="_Paginador" for="@Model.paginador" />
+</div>

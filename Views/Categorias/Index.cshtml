@@ -1,0 +1,76 @@
+﻿@model Stock1.View_Model.CategoriaVM
+@{
+    ViewData["Title"] = "Categorías";
+}
+
+<div class="container my-5">
+    <h1 class="text-center display-5 mb-4">@ViewData["Title"]</h1>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <a asp-action="Create" class="btn btn-primary btn-lg me-2">
+                <i class="bi bi-plus-circle"></i> Nueva Categoría
+            </a>
+        </div>
+
+        <form class="form" method="post" asp-action="Importar" enctype="multipart/form-data">
+            <div class="form-group input-group justify-content-center">
+                <label for="archivo">Seleccione un archivo CSV:</label>
+                <input type="file" name="archivo" id="archivo" class="form-control-file mt-2">
+            </div>
+            <button type="submit" class="btn btn-primary mt-2 mb-2">Importar</button>
+        </form>
+
+    </div>
+ 
+    
+
+
+    
+
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Detalles de las Categorías</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped align-middle mb-0">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Descripción</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.categorias != null && Model.categorias.Any())
+                    {
+                        @foreach (var item in Model.categorias)
+                        {
+                            <tr>
+                                <td class="text-center">@Html.DisplayFor(modelItem => item.descripcion)</td>
+                                <td class="text-center">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning btn-sm mx-1">
+                                        <i class="bi bi-pencil-square"></i> Editar
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm mx-1">
+                                        <i class="bi bi-info-circle"></i> Detalles
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm mx-1">
+                                        <i class="bi bi-trash"></i> Eliminar
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2" class="text-center">No hay categorías disponibles.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <partial name="_Paginador" for="@Model.paginador" />
+</div>
